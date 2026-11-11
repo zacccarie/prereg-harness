@@ -1,0 +1,32 @@
+{
+  "cards": {
+    "compute-audit-agents": {
+      "state": "gated",
+      "created": "2026-09-17T05:13:48+00:00",
+      "frozenHash": "4f30c4da7ed9896340c0106e81ef722d8c1e451800548b5220523dbebc2f5d51",
+      "frozenAt": "2026-09-17T05:15:21+00:00",
+      "gate": {
+        "result": "pass",
+        "note": "Synthétique 10 tâches à tests : R (opus-4.7 défaut) 9/10 + 1 timeout infra, D (haiku, titre seul, 3 tours) 0/10. Chute 90 points, seuil 20. Vérificateur sensible.",
+        "at": "2026-09-17T05:37:47+00:00"
+      }
+    },
+    "bisociation-v0": {
+      "state": "draft",
+      "created": "2026-10-21T04:03:45+00:00"
+    },
+    "nca-aligned-perturbation": {
+      "state": "logged",
+      "created": "2026-10-23T19:54:41+00:00",
+      "frozenHash": "ea811146345b128206f1f8b0cfffe85f59955e93effdf9051b39be71c632c92e",
+      "frozenAt": "2026-10-23T19:55:09+00:00",
+      "gate": {
+        "result": "pass",
+        "note": "8/10 modèles valides (ring s0/s1 exclus : perte 0,12, attracteur mort). G1 : |méd Δ_al,DET| = 0,0005 (T=45, eps=1e-3), résidu de Ritz médian 0,032. G2 : méd Δ_rand,STO = −0,025 (T=45, eps=1e-2), offset reproduit.",
+        "at": "2026-10-23T20:06:08+00:00"
+      },
+      "ranAt": "2026-10-23T20:06:08+00:00",
+      "loggedAt": "2026-10-23T20:08:29+00:00"
+    }
+  }
+}

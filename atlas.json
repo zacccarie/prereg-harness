@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "p": null,
+    "x": "NCA croissant entraîné (8 modèles, 4 cibles, taille 28), état d'ancrage x*",
+    "m": "Ritz dominant (λ1, v1) de la carte moyenne, Arnoldi 48 modes ; sondes alignées v1 vs aléatoires appariées (CRN)",
+    "r": "rollout stochastique, ε 1e-3→1e-1, T 15/45/135, |λ1| ∈ [0,977 ; 1,013]",
+    "o": "solide",
+    "v": "b confirmé : Δ_al +0,0015 (T=45), G +0,030 IC95 [+0,023 ; +0,041], f = 1,01, pente log G −0,73 ; c mort (DET = STO à 0,002), a mort jusqu'à ε = 0,1. Certificat absolu dans la direction critique, ordinal seulement pour une perturbation générique à horizon fini.",
+    "k": "Δ = g − log|λ1| ; G = g_al − g_rand ; f = G/(−Δ_rand)",
+    "s": "nca-aligned-perturbation",
+    "frozenHash": "ea811146345b128206f1f8b0cfffe85f59955e93effdf9051b39be71c632c92e",
+    "date": "2026-10-23T20:08:29+00:00"
+  }
+]
